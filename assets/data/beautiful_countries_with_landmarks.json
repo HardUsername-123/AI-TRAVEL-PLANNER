@@ -1,0 +1,433 @@
+[
+  {
+    "name": "France",
+    "official_name": "French Republic",
+    "iso_alpha_2": "FR",
+    "iso_alpha_3": "FRA",
+    "landmark_image": "https://internationalliving.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fwv75stsetqy3%2F5H8g02dSEMDHT2lMSIm2nw%2F230df7b3796546593cc2997de811d046%2FFrance.jpg%3Fq%3D60%26fit%3Dfill%26fm%3Dwebp&w=3840&q=60",
+    "popular_destinations": ["Paris", "French Riviera", "Provence"]
+  },
+  {
+    "name": "Italy",
+    "official_name": "Italian Republic",
+    "iso_alpha_2": "IT",
+    "iso_alpha_3": "ITA",
+    "landmark_image": "https://hips.hearstapps.com/hmg-prod/images/places-in-italy-lead-marco-bottigelli-65e6208eb4a69.jpg",
+    "popular_destinations": ["Rome", "Venice", "Florence", "Amalfi Coast"]
+  },
+  {
+    "name": "Switzerland",
+    "official_name": "Swiss Confederation",
+    "iso_alpha_2": "CH",
+    "iso_alpha_3": "CHE",
+    "landmark_image": "https://ggba.swiss/app/uploads/2023/08/Switzerland-Rankings-2360x1622-1-1024x704.jpg",
+    "popular_destinations": ["Zurich", "Lucerne", "Interlaken", "Zermatt"]
+  },
+  {
+    "name": "New Zealand",
+    "official_name": "New Zealand",
+    "iso_alpha_2": "NZ",
+    "iso_alpha_3": "NZL",
+    "landmark_image": "https://www.northlandnz.com/assets/Visit/Destinations/Bay-of-Islands/BOI-Hero-image__ResizedImageWzkwMCw2MDdd.jpg.webp",
+    "popular_destinations": ["Queenstown", "Rotorua", "Wellington"]
+  },
+  {
+    "name": "Japan",
+    "official_name": "Japan",
+    "iso_alpha_2": "JP",
+    "iso_alpha_3": "JPN",
+    "landmark_image": "https://images.javatpoint.com/tourist-places/images/tourist-places-in-japan.jpg",
+    "popular_destinations": ["Tokyo", "Kyoto", "Osaka", "Hokkaido"]
+  },
+  {
+    "name": "Australia",
+    "official_name": "Commonwealth of Australia",
+    "iso_alpha_2": "AU",
+    "iso_alpha_3": "AUS",
+    "landmark_image": "https://www.kids-world-travel-guide.com/images/australia_sydney_shutterstock_src50.jpg",
+    "popular_destinations": ["Sydney", "Melbourne", "Great Ocean Road"]
+  },
+  {
+    "name": "Greece",
+    "official_name": "Hellenic Republic",
+    "iso_alpha_2": "GR",
+    "iso_alpha_3": "GRC",
+    "landmark_image": "https://www.feetdotravel.com/uploads/7/1/0/0/71000831/athesn_orig.jpg",
+    "popular_destinations": ["Athens", "Mykonos", "Crete"]
+  },
+  {
+    "name": "Iceland",
+    "official_name": "Iceland",
+    "iso_alpha_2": "IS",
+    "iso_alpha_3": "ISL",
+    "landmark_image": "https://media.cntraveler.com/photos/569eb86978d099fc1224ab05/master/pass/blue-lagoon-t.jpg",
+    "popular_destinations": ["Reykjavik", "Jokulsarlon", "Geysir"]
+  },
+  {
+    "name": "Canada",
+    "official_name": "Canada",
+    "iso_alpha_2": "CA",
+    "iso_alpha_3": "CAN",
+    "landmark_image": "https://static1.thetravelimages.com/wordpress/wp-content/uploads/2023/08/resized-image-promo-2023-08-08t181646-728.jpeg",
+    "popular_destinations": ["Vancouver", "Toronto", "Montreal"]
+  },
+  {
+    "name": "Thailand",
+    "official_name": "Kingdom of Thailand",
+    "iso_alpha_2": "TH",
+    "iso_alpha_3": "THA",
+    "landmark_image": "https://static.independent.co.uk/2021/03/05/11/newFile-12.jpg",
+    "popular_destinations": ["Bangkok", "Phuket", "Chiang Mai"]
+  },
+
+  {
+    "name": "Afghanistan",
+    "official_name": "Islamic Republic of Afghanistan",
+    "iso_alpha_2": "AF",
+    "iso_alpha_3": "AFG",
+    "landmark_image": "https://lp-cms-production.imgix.net/2019-06/03b34edb56dec4e2296e82251a69d437-babur-s-gardens.jpg",
+    "popular_destinations": [
+      "Babur Garden",
+      "DarulAman Palace",
+      "Shrine of Hazrat Ali"
+    ]
+  },
+  {
+    "name": "Albania",
+    "official_name": "Republic of Albania",
+    "iso_alpha_2": "AL",
+    "iso_alpha_3": "ALB",
+    "landmark_image": "https://lp-cms-production.imgix.net/2019-06/626646167ecf0b9ce2b572c99a374984-gjirokastra-castle.jpg",
+    "popular_destinations": [
+      "Gjirokaster Castle",
+      "Kruja Castle",
+      "The Blue Eye"
+    ]
+  },
+  {
+    "name": "Algeria",
+    "official_name": "People's Democratic Republic of Algeria",
+    "iso_alpha_2": "DZ",
+    "iso_alpha_3": "DZA",
+    "landmark_image": "https://pbs.twimg.com/media/GNdmpnEWwAASd-v.jpg:large",
+    "popular_destinations": [
+      "Martyrs Memorial",
+      "Madagh Beach",
+      "Botanical Garden Hamma"
+    ]
+  },
+  {
+    "name": "Andorra",
+    "official_name": "Principality of Andorra",
+    "iso_alpha_2": "AD",
+    "iso_alpha_3": "AND",
+    "landmark_image": "https://i.ytimg.com/vi/U_quxV2NyaM/maxresdefault.jpg",
+    "popular_destinations": ["Grandvalira", "Andorra la Vella", "Pont Tibetà"]
+  },
+  {
+    "name": "Angola",
+    "official_name": "Republic of Angola",
+    "iso_alpha_2": "AO",
+    "iso_alpha_3": "AGO",
+    "landmark_image": "https://live.staticflickr.com/8631/16108952396_63b5e95456_b.jpg",
+    "popular_destinations": [
+      "Calandula Falls",
+      "View Point of Moon",
+      "Avenida 4 de Fevereiro"
+    ]
+  },
+  {
+    "name": "Argentina",
+    "official_name": "Argentine Republic",
+    "iso_alpha_2": "AR",
+    "iso_alpha_3": "ARG",
+    "landmark_image": "https://lp-cms-production.imgix.net/2024-08/shutterstock1338447983.jpg",
+    "popular_destinations": ["Iguazu Falls", "Teatro Colón", "Córdoba"]
+  },
+  {
+    "name": "Armenia",
+    "official_name": "Republic of Armenia",
+    "iso_alpha_2": "AM",
+    "iso_alpha_3": "ARM",
+    "landmark_image": "https://mirrorspectator.com/wp-content/uploads/2021/06/15Travel-1.jpeg",
+    "popular_destinations": [
+      "Republic Square",
+      "Cascade Complex",
+      "Greco-Roman Sun temple in Garni"
+    ]
+  },
+  {
+    "name": "Austria",
+    "official_name": "Republic of Austria",
+    "iso_alpha_2": "AT",
+    "iso_alpha_3": "AUT",
+    "landmark_image": "https://www.salzburg.info/02-sehenswertes/0201-festung-schloesser/3000x1000/image-thumb__37977__headerimage/header-panorama-mirabellgarten-festung-01.jpg",
+    "popular_destinations": [
+      "St. Stephen's Cathedral",
+      "Schönbrunn Palace",
+      "Prater"
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "official_name": "Republic of Azerbaijan",
+    "iso_alpha_2": "AZ",
+    "iso_alpha_3": "AZE",
+    "landmark_image": "https://static.wanderon.in/wp-content/uploads/2024/06/places-to-visit-in-baku.jpg",
+    "popular_destinations": [
+      "Heydar Aliyev Centre",
+      "Dənizkənarı Milli Park",
+      "Shahdag Mountain"
+    ]
+  },
+  {
+    "name": "Korea",
+    "official_name": "Republic of Korea",
+    "iso_alpha_2": "KR",
+    "iso_alpha_3": "KOR",
+    "landmark_image": "https://www.agoda.com/wp-content/uploads/2024/08/Namsan-Tower-during-autumn-in-Seoul-South-Korea-1244x700.jpg",
+    "popular_destinations": [
+      "Gyeongbokgung Palace",
+      "Jeju Island",
+      "Namsan Seoul Tower"
+    ]
+  },
+  {
+    "name": "Philippines",
+    "official_name": "Republic of the Philippines",
+    "iso_alpha_2": "PH",
+    "iso_alpha_3": "PHL",
+    "landmark_image": "https://i.natgeofe.com/n/04505c35-858b-4e95-a1a7-d72e5418b7fc/steep-karst-cliffs-of-el-nido-in-palawan.jpg?w=1534&h=768",
+    "popular_destinations": ["Manila", "Boracay", "Cebu", "Palawan"]
+  },
+  {
+    "name": "Israel",
+    "official_name": "State of Israel",
+    "iso_alpha_2": "IL",
+    "iso_alpha_3": "ISR",
+    "landmark_image": "https://i.pinimg.com/originals/0c/32/85/0c32852ad9d221b6c225e66645f80e05.jpg",
+    "popular_destinations": ["Jeusalem", "Eilat", "Nazareth", "Golan Heights"]
+  },
+  {
+    "name": "Netherlands",
+    "official_name": "Kingdom of the Netherlands",
+    "iso_alpha_2": "NL",
+    "iso_alpha_3": "NLD",
+    "landmark_image": "https://wallup.net/wp-content/uploads/2019/10/588515-hague-netherlands-the-hague-netherlands-holland-night-city-buildings-waterfront-water-reflection.jpg",
+    "popular_destinations": ["The Hague", "Utrecht", "Giethoorn", "Rotterdam "]
+  },
+  {
+    "name": "Kuwait",
+    "official_name": "State of Kuwait",
+    "iso_alpha_2": "KW",
+    "iso_alpha_3": "KWT",
+    "landmark_image": "https://atlas-network.com/wp-content/uploads/2019/09/shutterstock_1228516114.jpg",
+    "popular_destinations": [
+      "Kuwait City",
+      "AI Shaheed Park",
+      "Kuwait Zoo",
+      "Failaka Island "
+    ]
+  },
+  {
+    "name": "Qatar",
+    "official_name": "State of Qatar",
+    "iso_alpha_2": "QA",
+    "iso_alpha_3": "QAT",
+    "landmark_image": "http://nuvomagazine.com/wp-content/uploads/2014/05/Doha-Skyline-shutterstock_68025817.jpg",
+    "popular_destinations": [
+      "Aspire Park",
+      "Al Wakrah",
+      "Villaggio Mall",
+      "Doha Skyline "
+    ]
+  },
+  {
+    "name": "Saint Lucia",
+    "official_name": "Saint Lucia",
+    "iso_alpha_2": "LC",
+    "iso_alpha_3": "LCA",
+    "landmark_image": "https://drifttravel.com/wp-content/uploads/2020/09/TravMedia_USA_1415050_DJI_0810.jpg",
+    "popular_destinations": [
+      "Sulphur Springs",
+      "Rodney Bay",
+      "Castries",
+      "Marigot Bay "
+    ]
+  },
+  {
+    "name": "Myanmar",
+    "official_name": "Republic of the Union of Myanmar",
+    "iso_alpha_2": " MM",
+    "iso_alpha_3": " MMR",
+    "landmark_image": "https://www.indochinavoyages.com/wp-content/uploads/2019/07/ngapali_beach_1.jpg",
+    "popular_destinations": ["Bagan", "Inle Lake", "Mandalay", "Ngapali Beach "]
+  },
+  {
+    "name": "Tunisia",
+    "official_name": "Tunisian Republic",
+    "iso_alpha_2": " TN",
+    "iso_alpha_3": " TUN",
+    "landmark_image": "https://www.tripsavvy.com/thmb/yeUL9QV4A1iM74Ledzw1r1EnmOs=/2123x1412/filters:fill(auto,1)/GettyImages-5756643251-5bbd9273c9e77c0058b04383.jpg",
+    "popular_destinations": ["Carthage", "Sidi Bou Said", "Dougga", "Tunis"]
+  },
+  {
+    "name": "Marshall Islands",
+    "official_name": "Republic of the Marshall Islands",
+    "iso_alpha_2": "  MH",
+    "iso_alpha_3": " MHL",
+    "landmark_image": "http://4.bp.blogspot.com/-ukN-yspomnM/UNceBpfg0FI/AAAAAAAAAfk/Gv-vf5TVOr8/s1600/Holiday%2BIn%2BMarshall%2BIslands%2B-%2BBikini%2BAtoll.jpg",
+    "popular_destinations": [
+      "Majuro",
+      "Arno Atoll",
+      "Likiep Atol",
+      "Bikini Atoll"
+    ]
+  },
+  {
+    "name": "Nauru",
+    "official_name": "Republic of Nauru",
+    "iso_alpha_2": "NR",
+    "iso_alpha_3": "NRU",
+    "landmark_image": "https://media-cdn.tripadvisor.com/media/photo-s/18/be/94/3e/best-beach-in-all-of.jpg",
+    "popular_destinations": [
+      "Buada Lagoon",
+      "Command Ridge",
+      "Central Plateau ",
+      "Anibare Bay"
+    ]
+  },
+  {
+    "name": "Haiti",
+    "official_name": "Republic of Haiti",
+    "iso_alpha_2": "HT",
+    "iso_alpha_3": "HTI",
+    "landmark_image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/7e/e3/99.jpg",
+    "popular_destinations": [
+      "Sans-Souci Palace",
+      "Labadee",
+      "Jacmel ",
+      "Citadelle Laferrière"
+    ]
+  },
+  {
+    "name": "Russia",
+    "official_name": "Russian Federation",
+    "iso_alpha_2": "RU",
+    "iso_alpha_3": "RUS",
+    "landmark_image": "https://www.tripsavvy.com/thmb/6R1Wm2oVwGnIC2DBc4BwS80sveY=/3863x2578/filters:no_upscale():max_bytes(150000):strip_icc()/moscow-kremlin-and-st-basil-cathedral-at-dusk-158200423-5a64f4594e46ba00377331fb.jpg",
+    "popular_destinations": [
+      "Saint Petersburg",
+      "Lake Baikal ",
+      "Sochi ",
+      "Moscow"
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "official_name": "Lebanese Republic",
+    "iso_alpha_2": "LB",
+    "iso_alpha_3": "LBN",
+    "landmark_image": "https://i.redd.it/lm5g8nbn6s541.jpg",
+    "popular_destinations": [
+      "Baalbek",
+      "Jeita Grotto  ",
+      "Tripoli  ",
+      "Beirut "
+    ]
+  },
+  {
+    "name": "Lesotho",
+    "official_name": "Kingdom of Lesotho",
+    "iso_alpha_2": " LS",
+    "iso_alpha_3": "LSO",
+    "landmark_image": "https://cdn.britannica.com/18/195818-050-5E2E93BA/Maseru-Lesotho.jpg",
+    "popular_destinations": [
+      "Katse Dam",
+      "Thaba-Bosiu  ",
+      "Sehlabathebe National Park ",
+      "Maseru "
+    ]
+  },
+  {
+    "name": "Peru",
+    "official_name": "Republic of Peru",
+    "iso_alpha_2": "PE",
+    "iso_alpha_3": "PER",
+    "landmark_image": "https://media.cntraveler.com/photos/5818a486b6f3d25e7b5c6a3e/master/pass/GettyImages-573103543.jpg",
+    "popular_destinations": [
+      "Lima",
+      "Sacred Valley ",
+      "Cusco ",
+      "Machu Picchu "
+    ]
+  },
+  {
+    "name": "Rwanda",
+    "official_name": "Republic of Rwanda ",
+    "iso_alpha_2": "RW",
+    "iso_alpha_3": "RWA",
+    "landmark_image": "https://easttowestsafaris.com/wp-content/uploads/2019/09/Cb-jW20WIAAt0fp-1024x683.jpg",
+    "popular_destinations": [
+      "Volcanoes National Park",
+      "Lake Kivu",
+      "Nyungwe Forest National Park  ",
+      "Kigali"
+    ]
+  },
+  {
+    "name": "Portugal",
+    "official_name": "Portuguese Republic",
+    "iso_alpha_2": "PT",
+    "iso_alpha_3": "PRT",
+    "landmark_image": "https://wallpapercave.com/wp/wp2028784.jpg",
+    "popular_destinations": ["Porto ", "Algarve", "Madeira ", "Lisbon"]
+  },
+  {
+    "name": "Turkey",
+    "official_name": "Republic of Turkey",
+    "iso_alpha_2": "TR",
+    "iso_alpha_3": "TUR",
+    "landmark_image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/507000/507808-istanbul.jpg",
+    "popular_destinations": ["Antalya ", "Ephesus", "Cappadocia", "Istanbul"]
+  },
+  {
+    "name": "Brazil",
+    "official_name": "Federative Republic of Brazil",
+    "iso_alpha_2": "BR",
+    "iso_alpha_3": "BRA",
+    "landmark_image": "https://cdn.holidayguru.es/wp-content/uploads/2016/08/Aerial-view-of-Christ-Sugarloaf-Rio-de-Janeiro-Brazil-iStock_55264880_LARGE-EDITORIAL-ONLY-dolphinphoto-2.jpg",
+    "popular_destinations": [
+      "Amazon Rainforest",
+      "Pantanal ",
+      "Olinda",
+      "Rio de Janeiro"
+    ]
+  },
+  {
+    "name": "South Africa",
+    "official_name": "Republic of South Africa",
+    "iso_alpha_2": "ZA",
+    "iso_alpha_3": "ZAF",
+    "landmark_image": "https://i.pinimg.com/originals/13/94/6a/13946abdf2a6843d3eb5cfbbfb10d2ee.jpg",
+    "popular_destinations": [
+      "Johannesburg",
+      "Durban ",
+      "Kruger National Park",
+      "Cape Town"
+    ]
+  },
+  {
+    "name": "Norway",
+    "official_name": "Kingdom of Norway",
+    "iso_alpha_2": "NO",
+    "iso_alpha_3": "NOR",
+    "landmark_image": "https://www.norwayexcursions.com/wp-content/uploads/2020/06/Best-things-to-do-oslo-summer-Karl-Johans-Gate.jpg",
+    "popular_destinations": [
+      "Lofoten Islands ",
+      "Trolltunga ",
+      "Bergen",
+      "Oslo"
+    ]
+  }
+]

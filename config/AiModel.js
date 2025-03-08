@@ -1,0 +1,45 @@
+const {
+  GoogleGenerativeAI,
+  HarmCategory,
+  HarmBlockThreshold,
+} = require("@google/generative-ai");
+
+const apiKey = process.env.EXPO_PUBLIC_GOOGLE_GEMINI_API_KEY;
+const genAI = new GoogleGenerativeAI(apiKey);
+
+const model = genAI.getGenerativeModel({
+  model: "gemini-2.0-flash-exp",
+});
+
+const generationConfig = {
+  temperature: 1,
+  topP: 0.95,
+  topK: 40,
+  maxOutputTokens: 8192,
+  responseMimeType: "application/json",
+};
+
+export const chatSession = model.startChat({
+  generationConfig,
+  history: [
+    {
+      role: "user",
+      parts: [
+        {
+          text: "Generate Travel Plan for location: France, for 2 Days and 1 Night for A Couple with a Luxury budget with a flight details, Flight Price with Booking url, Hotels Options list with HotelName, Hotel address, Price, hotel image url, geo coordinates, rating, descriptions and places to visit nearby with placeName, Place details, place image url, Geo coordinates , ticket Pricing , Time to travel each of the location for {totalDays} days and {totalNight} nights with each day plan with best time to visit in JSON format.",
+        },
+      ],
+    },
+    {
+      role: "model",
+      parts: [
+        {
+          text: 'Okay, here\'s a luxurious 2-day, 1-night travel plan for a couple in Paris, France, designed with a focus on high-end experiences. Please note that flight prices and availability can vary greatly, so I\'ll provide an example and booking URL. Hotel and attraction prices are estimates and subject to change.\n\n```json\n{\n  "tripDetails": {\n    "location": "Paris, France",\n    "totalDays": 2,\n    "totalNights": 1,\n    "budget": "Luxury",\n    "travelers": "Couple"\n  },\n  "flightDetails": {\n    "exampleFlight": {\n      "airline": "Air France",\n      "departureCity": "Your Departure City",\n      "arrivalCity": "Paris (CDG)",\n      "estimatedPrice": "€600 - €1500 per person (roundtrip)",\n      "bookingUrl": "https://www.google.com/flights (Please enter your departure city and dates)"\n    }\n  },\n  "hotelOptions": [\n    {\n      "hotelName": "Le Bristol Paris",\n      "hotelAddress": "112 Rue du Faubourg Saint-Honoré, 75008 Paris, France",\n      "price": "€1200 - €3000 per night",\n      "hotelImageUrl": "https://example.com/le-bristol-paris.jpg",\n      "geoCoordinates": { "latitude": 48.8717, "longitude": 2.3100 },\n      "rating": 4.9,\n      "description": "An iconic palace hotel with refined rooms, a rooftop pool, and Michelin-starred dining.",\n       "nearbyAttractions" : [\n           {\n             "placeName": "Champs-Élysées",\n              "placeDetails": "A renowned avenue, known for high-end shopping, cafes, and the Arc de Triomphe.",\n             "placeImageUrl": "https://example.com/champs-elysees.jpg",\n             "geoCoordinates": { "latitude": 48.8698, "longitude": 2.3069 },\n             "ticketPrice": "Free (Shopping and dining costs vary)",\n              "timeToTravel": "5 min walk"\n           },\n            {\n             "placeName": "Arc de Triomphe",\n              "placeDetails": "A Neoclassical monument offering panoramic views of Paris. ",\n             "placeImageUrl": "https://example.com/arc-de-triomphe.jpg",\n             "geoCoordinates": { "latitude": 48.8738, "longitude": 2.2950 },\n             "ticketPrice": "€13",\n              "timeToTravel": "10 min walk"\n           }\n         ]\n    },\n    {\n      "hotelName": "Four Seasons Hotel George V",\n      "hotelAddress": "31 Avenue George V, 75008 Paris, France",\n      "price": "€1500 - €4000 per night",\n      "hotelImageUrl": "https://example.com/four-seasons-george-v.jpg",\n      "geoCoordinates": { "latitude": 48.8698, "longitude": 2.3025 },\n      "rating": 5.0,\n       "description": "A legendary hotel with exquisite floral displays, a spa, and multiple Michelin-starred restaurants.",\n        "nearbyAttractions" : [\n           {\n             "placeName": "Seine River Cruise",\n              "placeDetails": "Enjoy a romantic cruise on the Seine River, admiring famous landmarks.",\n             "placeImageUrl": "https://example.com/seine-cruise.jpg",\n             "geoCoordinates": { "latitude": 48.8588, "longitude": 2.3406 },\n             "ticketPrice": "€20-€50 per person",\n              "timeToTravel": "10 min drive"\n           },\n           {\n             "placeName": "Eiffel Tower",\n              "placeDetails": "The most iconic symbol of Paris, offering breathtaking views of the city.",\n             "placeImageUrl": "https://example.com/eiffel-tower.jpg",\n             "geoCoordinates": { "latitude": 48.8584, "longitude": 2.2945 },\n             "ticketPrice": "€28 per person (summit)",\n              "timeToTravel": "15 min walk"\n           }\n         ]\n    },\n        {\n      "hotelName": "Ritz Paris",\n      "hotelAddress": "15 Place Vendôme, 75001 Paris, France",\n      "price": "€1800 - €5000 per night",\n      "hotelImageUrl": "https://example.com/ritz-paris.jpg",\n      "geoCoordinates": { "latitude": 48.8673, "longitude": 2.3303 },\n      "rating": 4.9,\n      "description": "A historic landmark hotel known for its opulent rooms, world-class dining, and glamorous ambiance.",\n       "nearbyAttractions" : [\n           {\n             "placeName": "Louvre Museum",\n              "placeDetails": "One of the world\'s largest and most visited museums, home to masterpieces like the Mona Lisa.",\n             "placeImageUrl": "https://example.com/louvre.jpg",\n             "geoCoordinates": { "latitude": 48.8606, "longitude": 2.3376 },\n             "ticketPrice": "€17 per person",\n              "timeToTravel": "10 min walk"\n           },\n           {\n              "placeName": "Jardin des Tuileries",\n             "placeDetails": "A beautiful public garden located between the Louvre and Place de la Concorde.",\n              "placeImageUrl": "https://example.com/jardin-des-tuileries.jpg",\n              "geoCoordinates": { "latitude": 48.8636, "longitude": 2.3263 },\n             "ticketPrice": "Free",\n              "timeToTravel": "5 min walk"\n           }\n         ]\n    }\n  ],\n  "dailyPlan": {\n    "day1": {\n      "bestTimeToVisit": "Morning to Evening",\n      "morning": {\n        "activity": "Arrival and Hotel Check-in",\n        "description": "Arrive at Charles de Gaulle (CDG) airport, private transfer to your luxurious hotel. Check-in and settle into your exquisite room.",\n         "time": "10:00 AM"\n      },\n      "midday": {\n        "activity": "Michelin-Starred Lunch",\n        "description": "Indulge in a gourmet lunch at a Michelin-starred restaurant near your hotel. Enjoy the finest French cuisine and ambiance.",\n        "time": "1:00 PM"\n       },\n      "afternoon": {\n          "activity": "Private Shopping & Art Experience",\n        "description": "Enjoy a private shopping experience at high-end boutiques followed by a private tour of a prestigious art gallery.",\n        "time": "3:00 PM"\n      },\n      "evening": {\n        "activity": "Romantic Dinner and Opera",\n        "description": "Savor a romantic dinner at another renowned restaurant. Follow it with a performance at the Paris Opera (Palais Garnier).",\n          "time": "7:00 PM"\n      }\n    },\n    "day2": {\n      "bestTimeToVisit": "Morning to Afternoon",\n      "morning": {\n        "activity": "Breakfast and Seine River Cruise",\n        "description": "Start your day with a leisurely breakfast at your hotel. Then, enjoy a private Seine River cruise with champagne and canapés.",\n          "time": "9:00 AM"\n      },\n      "midday": {\n        "activity": "Eiffel Tower Visit & Picnic",\n          "description": "Visit the Eiffel Tower for breathtaking views and enjoy a gourmet picnic at the Champ de Mars.",\n           "time": "12:00 PM"\n      },\n      "afternoon": {\n        "activity": "Spa Treatment & Departure",\n        "description": "Enjoy a couples\' spa treatment at your hotel. Then, private transfer to the airport for your departure.",\n         "time": "3:00 PM"\n      }\n    }\n  }\n}\n```\n\n**Important Notes:**\n\n*   **Booking in Advance:** Book flights, hotels, and restaurants well in advance, especially for luxury options.\n*   **Reservations:** Make reservations for popular attractions and restaurants to avoid queues and ensure availability.\n*   **Transportation:** Consider a private car service for comfortable and convenient transportation.\n*   **Flexibility:** This is a suggested itinerary; feel free to adjust it to your preferences and interests.\n*   **Prices:** Prices are estimates and can vary depending on the season and availability.\n*   **Images:**  Replace the example image URLs with actual URLs from reliable sources.\n*   **Customization:** Let me know if you have specific interests (e.g., specific cuisines, museums, etc.) and I can tailor the plan further.\n\nEnjoy your luxurious Parisian getaway!\n',
+        },
+      ],
+    },
+  ],
+});
+
+//   const result = await chatSession.sendMessage("INSERT_INPUT_HERE");
+//   console.log(result.response.text());
