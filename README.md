@@ -81,20 +81,6 @@ FIREBASE_APP_ID=your_app_id
 GEMINI_API_KEY=your_google_gemini_key
 ```
 
----
-
-## 🧱 App Structure
-
-```bash
-src/
-├── components/       # Reusable UI components (Material UI)
-├── screens/          # App screens (Home, Itinerary, Profile)
-├── services/         # Firebase & Gemini services
-├── context/          # App-wide state/context providers
-└── utils/            # Helpers (formatting, validation, etc.)
-```
-
----
 
 ## 🎨 UI Preview
 
@@ -152,4 +138,3 @@ git push origin feat/my-feature
 
 ---
 
-> “Let AI do the planning. You enjoy the journey.”
